@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 146px 23px 122px;
+    position: relative;
+    background-color: black;
+}
+
+.box {
+    display: flex;
+}
+
+.logo {
+    width: 115px;
+    height: 68px;
+}
+
+.box1 {
+    margin-top: 30px;
+}
+
+.box2 {
+    margin-left: 739px;
+}
+
+.box2 p {
+    margin-left: 22px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+}
+
+.phone-logo {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.mail-logo {
+    display: flex;
+}
+
+.instagram {
+    width: 33px;
+    height: 33px;
+}
+
+.fb {
+    width: 32px;
+    height: 32px;
+    margin-left: 18px;
+}
+
+.wk {
+    width: 35px;
+    height: 35px;
+    margin-left: 21px;
+}
+
+.wp {
+    width: 34px;
+    height: 34px;
+    margin-left: 25px;
+}
+
+.box3 {
+    position: absolute;
+    bottom: 23;
+    left: 122;
+}
+
+.box3 p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+}
+
+/* tablet style */
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 28.96px 84.56px 13.32px 70.66px;
+    }
+
+    .logo {
+        width: 66.604px;
+        height: 39.383px;
+    }
+
+    .box1 {
+        margin-top: 17.32px;
+    }
+
+    .box2 {
+        margin-left: 428px;
+    }
+
+    .box2 p {
+        margin-left: 12.74px;
+        font-size: 14px;
+    }
+
+    .phone-logo {
+        margin-top: 31.28px;
+        margin-bottom: 14.48px;
+    }
+
+    .instagram {
+        width: 19.113px;
+        height: 19.113px;
+    }
+
+    .fb {
+        width: 18.533px;
+        height: 18.533px;
+        margin-left: 10.43px;
+    }
+
+    .wk {
+        width: 20.271px;
+        height: 20.271px;
+        margin-left: 12.16px;
+    }
+
+    .wp {
+        width: 19.692px;
+        height: 19.692px;
+        margin-left: 14.48px;
+    }
+
+    .box3 p {
+        font-size: 10px;
+    }
+}
+
+/* mobile style  */
+@media screen and (max-width:768px) {
+    .container {
+        padding: 23.3px 188.82px 10px 50px;
+    }
+
+    .logo {
+        width: 53.587px;
+        height: 31.686px;
+    }
+    .box1 {
+        margin-top: 17.32px;
+    }
+}
