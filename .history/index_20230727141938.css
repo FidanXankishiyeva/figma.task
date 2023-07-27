@@ -50,13 +50,11 @@
     margin-left: 25px;
 }
 .right-box{
-    margin-top: 4px;
+    marg
 }
 
 .right-box ul li{
 display: flex;
-list-style-type: none;
-margin-bottom: 25px;
 }
 
 .right-box ul li p {

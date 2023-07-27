@@ -27,36 +27,9 @@
 .left-box  .logo-box {
     margin-top: 30px;
 }
-.left-box .instagram {
-    width: 33px;
-    height: 33px;
-}
-
-.left-box .fb {
-    width: 32px;
-    height: 32px;
-    margin-left: 18px;
-}
-
-.left-box .wk {
-    width: 35px;
-    height: 35px;
-    margin-left: 21px;
-}
-
-.left-box .wp {
-    width: 34px;
-    height: 34px;
-    margin-left: 25px;
-}
-.right-box{
-    margin-top: 4px;
-}
 
 .right-box ul li{
 display: flex;
-list-style-type: none;
-margin-bottom: 25px;
 }
 
 .right-box ul li p {

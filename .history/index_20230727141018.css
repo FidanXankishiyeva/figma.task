@@ -16,50 +16,22 @@
 
 .collaj-box {
     display: flex;
-    justify-content: space-between;
 }
 
-.left-box .logo {
+.logo {
     width: 115px;
     height: 68px;
 }
 
-.left-box  .logo-box {
+.logo-box {
     margin-top: 30px;
 }
-.left-box .instagram {
-    width: 33px;
-    height: 33px;
+
+.box2 {
+    margin-left: 739px;
 }
 
-.left-box .fb {
-    width: 32px;
-    height: 32px;
-    margin-left: 18px;
-}
-
-.left-box .wk {
-    width: 35px;
-    height: 35px;
-    margin-left: 21px;
-}
-
-.left-box .wp {
-    width: 34px;
-    height: 34px;
-    margin-left: 25px;
-}
-.right-box{
-    margin-top: 4px;
-}
-
-.right-box ul li{
-display: flex;
-list-style-type: none;
-margin-bottom: 25px;
-}
-
-.right-box ul li p {
+.box2 p {
     margin-left: 22px;
     color: #FFF;
     font-family: Roboto;
@@ -69,8 +41,38 @@ margin-bottom: 25px;
     line-height: 101.385%;
 }
 
+.phone-logo {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
 
+.mail-logo {
+    display: flex;
+}
 
+.instagram {
+    width: 33px;
+    height: 33px;
+}
+
+.fb {
+    width: 32px;
+    height: 32px;
+    margin-left: 18px;
+}
+
+.wk {
+    width: 35px;
+    height: 35px;
+    margin-left: 21px;
+}
+
+.wp {
+    width: 34px;
+    height: 34px;
+    margin-left: 25px;
+}
 
 .fixed-box {
     position: absolute;
